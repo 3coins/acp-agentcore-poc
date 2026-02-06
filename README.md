@@ -63,7 +63,8 @@ The test client will:
 
 ### Demo Video
 
-[Demo Video](https://github.com/3coins/acp-agentcore-poc/tree/main/demos/agentcore-acp-demo.mp4)
+https://github.com/user-attachments/assets/ce34b7eb-63ec-4424-9c68-948b525c1ca0
+
 
 ## Configuration
 
