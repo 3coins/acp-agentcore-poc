@@ -63,7 +63,7 @@ The test client will:
 
 ### Demo Video
 
-See a demonstration of the agent in action at `demos/agentcore-acp-demo.mov`
+See a demonstration of the agent in action at 
 
 ## Configuration
 
