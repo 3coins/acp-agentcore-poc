@@ -4,7 +4,7 @@ requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "deepagentsacpagent"
+name = "acp-agentcore-poc"
 version = "0.1.0"
 requires-python = ">=3.11"
 
@@ -21,8 +21,9 @@ dependencies = [
     "python-dotenv >= 1.2.1",
     "tiktoken==0.11.0",
     # DeepAgents and ACP dependencies
-    "agent-client-protocol >= 0.7.1",
+    "agent-client-protocol @ git+https://github.com/3coins/python-sdk@http-ws-transport",
     "websockets >= 16.0",
     "deepagents",
-    "deepagents-acp @ git+https://github.com/langchain-ai/deepagents.git#subdirectory=libs/acp",
+    "deepagents-acp @ git+https://github.com/langchain-ai/deepagents.git#subdirectory=libs/acp"
+    # Note: acp-http-transport is in requirements.txt as local editable package
 ]

@@ -1,15 +1,15 @@
-default_agent: deepagentsacpagent_Agent
+default_agent: acp_agentcore_poc_Agent
 agents:
-  deepagentsacpagent_Agent:
-    name: deepagentsacpagent_Agent
+  acp_agentcore_poc_Agent:
+    name: acp_agentcore_poc_Agent
     language: python
     node_version: null
-    entrypoint: /Users/pijain/projects/2026/agentcore-with-acp/deepagents-agentcore/deepagentsacpagent/src/acp_agent_main.py
+    entrypoint: src/acp_agent_main.py
     deployment_type: direct_code_deploy
     runtime_type: PYTHON_3_11
     platform: linux/amd64
     container_runtime: null
-    source_path: /Users/pijain/projects/2026/agentcore-with-acp/deepagents-agentcore/deepagentsacpagent/src
+    source_path: src
     aws:
       execution_role: null
       execution_role_auto_create: true
